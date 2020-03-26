@@ -1,0 +1,41 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    body 
+    {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+        background-color: yellow;
+        min-width: 64px;
+        min-height: 200px;
+    }
+    
+  }
+
+@media only screen and (min-width: 481px) and (max-width: 767px)
+{
+    body 
+    {
+      background-color: lightblue;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+{
+    body {
+      background-color: red;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) 
+{
+  
+    //CSS
+}
+
+@media only screen and (min-width: 1281px)
+{
+    body {
+      background-color: green;
+    }
+}
